@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <>
             <nav className="navbar">
-                <img src="/Billeder/Logo/logo.svg" alt="Logo" className="navbar__logo" />
+                <a href="/"><img src="/Billeder/Logo/logo.svg" alt="Logo" className="navbar__logo" /></a>
                 <ul className="navbar__list">
                     <li className="navbar__item"><Link to="/" className="navbar__link">Hjem</Link></li>
                     <li className="navbar__item"><Link to="/about" className="navbar__link">Om os</Link></li>
