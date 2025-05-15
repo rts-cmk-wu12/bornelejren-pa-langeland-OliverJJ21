@@ -18,7 +18,7 @@
         background: white;
         border-radius: 15px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-        transition: transform 0.3s ease;
+        transition: transform 0.3s ease-in-out;
 
         &:hover {
             transform: translateY(-5px);
@@ -55,7 +55,7 @@
         font-size: 1em;
         line-height: 1.6;
         margin-bottom: 0.5em;
-        transition: color 0.3s ease;
+        transition: color 0.3s ease-in-out;
 
         &:hover {
             color: #d0000b;
