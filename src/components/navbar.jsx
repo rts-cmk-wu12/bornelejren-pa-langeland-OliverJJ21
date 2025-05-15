@@ -12,7 +12,7 @@ function Navbar() {
     return (
         <>
             <nav className="navbar">
-                <a href="/"><img src="src/assets/logo.svg" alt="Logo" className="navbar__logo" /></a>
+                <a href="/"><img src="/logo.svg" alt="Logo" className="navbar__logo" /></a>
                 <div className={`navbar__burger ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>
                     <span></span>
                     <span></span>
