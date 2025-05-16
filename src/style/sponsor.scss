@@ -1,0 +1,16 @@
+  .sponsor-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #d0000b;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: #a7030c;
+      }
+    }
+  }

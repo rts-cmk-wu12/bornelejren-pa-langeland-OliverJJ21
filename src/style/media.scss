@@ -1,0 +1,84 @@
+  @media screen and (max-width: 1024px) {
+    .forside__flex-container {
+      flex-direction: column;
+    }
+
+    .forside__image-container {
+      width: 90%;
+      margin: 1em auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .forside__title {
+      font-size: 2em;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .forside__button {
+      display: block;
+      width: 80%;
+      margin: 1em auto;
+      text-align: center;
+    }
+
+    .forside__image-container {
+      width: 100%;
+      margin: 1em 0;
+    }
+
+    .forside__image {
+      width: 100%;
+      height: auto;
+    }
+
+    .forside__intro-text,
+    .forside__mission-text,
+    .forside__purpose-text,
+    .forside__impact-text {
+      width: 100%;
+      padding: 1em;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .forside__title {
+      font-size: 1.8em;
+    }
+
+    .forside__button {
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .forside__title {
+      font-size: 1.5em;
+    }
+
+    .forside__start-title,
+    .forside__mission-title,
+    .forside__purpose-title,
+    .forside__impact-title {
+      font-size: 1.3em;
+      text-align: center;
+    }
+
+    .forside__content {
+      padding: 0.5em;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .forside__title {
+      font-size: 1.3em;
+    }
+
+    .forside__button {
+      width: 95%;
+    }
+  }
