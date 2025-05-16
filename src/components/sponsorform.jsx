@@ -94,7 +94,7 @@ function SponsForm() {
                             required
                         />
                     </div>
-                    <button type="submit" className="submit-btn">Send</button>
+                    <button type="submit" className="submit-btn">Tilmeld</button>
                 </form>
             </div>
         </>
